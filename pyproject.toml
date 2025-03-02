@@ -137,11 +137,11 @@ extra = [
 "Source" = "https://github.com/ultralytics/yolov5/"
 
 # Tools settings -------------------------------------------------------------------------------------------------------
-[tool.setuptools.pakcages.find]
+[tool.setuptools.packages.find]
 where = ['src']
 
 [tool.setuptools]
-py_modules = ["benchmarks", "detect", "export", "hubconf", "train", "val"]
+py-modules = ["benchmarks", "detect", "export", "hubconf", "train", "val"]
 
 [tool.pytest]
 norecursedirs = [".git", "dist", "build"]
